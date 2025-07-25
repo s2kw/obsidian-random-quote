@@ -1,0 +1,35 @@
+# コンパイルされたビルド成果物（JavaScript / ソースマップ）
+/dist/
+/main.js
+/**/*.js
+/**/*.js.map
+
+.crossnote/
+
+# Node.jsパッケージ
+/node_modules/
+
+# VSCodeやIDEの設定ファイル
+.vscode/
+.idea/
+
+# macOS システムファイル
+.DS_Store
+Thumbs.db
+
+# Obsidian Vault 全体の設定（プロジェクトルートがVaultでない場合は不要）
+.obsidian/
+# ただし必要な設定ファイルのみ保持したい場合は以下のように調整：
+# !.obsidian/community-plugins.json
+# !.obsidian/core-plugins.json
+# !.obsidian/hotkeys.json
+
+# Obsidian プラグインのデータやキャッシュ（Vaultリポジトリにのみ該当）
+.obsidian/plugins/*/data.json  # APIキーやプラグイン設定のみ保持
+# プラグインのコード本体は追跡しない
+.obsidian/plugins/*/*
+
+# 一時生成 or その他不要ファイル
+npm-debug.log
+
+*.sh

@@ -1,0 +1,20 @@
+{
+  "id": "random-quote-plugin",
+  "name": "Random Quote Plugin",
+  "version": "0.1.0",
+  "author": "s2kw",
+  "authorUrl":"https://github.com/s2kw/obsidian-random-quote",
+  "description": "Insert a random quote from user-specified notes.",
+  "main": "main.js",
+  "minAppVersion": "0.12.0",
+  "commands": [
+    {
+      "id": "insert-random-quote",
+      "name": "Insert Random Quote from Files",
+      "hotkeys": [
+        { "modifiers": ["Mod", "Alt", "Shift"], "key": "P" }
+      ]
+    }
+  ]
+
+}
